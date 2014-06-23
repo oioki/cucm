@@ -1,0 +1,22 @@
+* {
+    font-size: 18;
+}
+
+table {
+    border-spacing: 1px;
+    background-color: #d5d5d5;
+    background: lightgray;
+}
+
+thead {
+    background-color: #b0b0b0;
+}
+
+tbody {
+    background-color: white;
+}
+
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

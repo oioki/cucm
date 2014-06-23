@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<title>CUCM extension monitoring</title>
+<link href='style.css' rel='stylesheet' type='text/css'/>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+
+<script type="text/javascript">
+setTimeout(function()
+{
+  $.get('main.php',function(data){
+    $('body').html(data)
+  })
+}, 5000);
+</script>
+
+<body>
+
+Loading...
+
+</body>
+</html>
